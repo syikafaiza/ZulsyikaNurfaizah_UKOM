@@ -1,0 +1,238 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="app.healthcompanion.heco.HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:background="#29d5c5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/ic_launcher"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="95dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="HeCo"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/konkes"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/stethoscope"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Konsultasi Kesehatan"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dafgej"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/symtomp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Daftar Gejala Penyakit"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dafoh"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/chemical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Daftar Obat Herbal"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dafos"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/capsule"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Daftar Obat Sintetis"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tipkes"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/health"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Tips Kesehatan"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tenaps"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/data"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Pengolahan Data"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tenaps"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/about"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Tentang Aplikasi"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

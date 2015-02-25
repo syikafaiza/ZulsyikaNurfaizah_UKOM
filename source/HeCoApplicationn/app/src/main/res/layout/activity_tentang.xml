@@ -1,0 +1,242 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="app.healthcompanion.heco.TentangActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:background="#29d5c5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/about"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="95dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="Tentang Aplikasi"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="#cdebe8">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#29d5c5">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:src="@drawable/ic_launcher"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="Aplikasi HeCo"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="Aplikasi HeCo (Your Health Companion) dibuat dengan tujuan membantu pengguna mengidentifikasi penyakit yang diderita sesuai dengan gejala yang dirasakan."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="#cdebe8">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#29d5c5">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:src="@drawable/ic_launcher"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="Programmer"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="Zulsyika Nurfaizah"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="XII RPL"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="SMK Negeri 10 Jakarta"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                android:background="#cdebe8">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#29d5c5">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:src="@drawable/ic_launcher"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="Referensi"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="Android Studio"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="MIMS Indonesia"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="www.sampleprogramz.com"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="www.freepik.com"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

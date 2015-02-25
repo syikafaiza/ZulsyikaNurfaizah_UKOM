@@ -3,7 +3,7 @@ HeCo (Your Health Companion)
 
 Version 1.0.1 - Wednesday 25 February 2015
 
-by Zulsyika Nurfaizah
+by Zulsyika Nurfaizah<br>
 <http://zulsyikanw.blogspot.com/>
 
 Sinopsis Aplikasi

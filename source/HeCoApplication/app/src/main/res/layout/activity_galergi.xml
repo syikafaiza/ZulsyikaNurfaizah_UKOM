@@ -1,0 +1,230 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="app.healthcompanion.heco.GalergiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:background="#29d5c5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/symtomp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="95dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="Daftar Gejala Penyakit"/>
+
+            </RelativeLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:text="Dermatitis Atopik"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/atopik"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Ruam/Bercak kemerahan. Gatal. Bengkak. Luka lecet"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Pemaparan terhadap zat iritan, seperti wool atau serat sintetis, sabun, dan/atau deterjen, parfum, colognes, chlorine, minyak mineral, zat pelarut, debu, pasir, atau asap rokok."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Riwayat atopik dalam keluarga (eksim, asma, urtikaria)."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Penderita mengalami ruam-ruam kemerahan pada wajah, lipat siku, lipat lutut, tangan dan kaki, atau sekeliling mata, kelopak mata, alis mata, dan bulu mata."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:text="Dermatitis Kontak"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/kontak"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Ruam/Bercak kemerahan. Gatal. Bengkak. Luka lecet"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Pemaparan terhadap zat iritan, seperti wool atau serat sintetis, sabun, dan/atau deterjen, parfum, colognes, chlorine, minyak mineral, zat pelarut, debu, pasir, atau asap rokok."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Riwayat atopik dalam keluarga (eksim, asma, urtikaria)."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Penderita mengalami ruam-ruam kemerahan pada wajah, lipat siku, lipat lutut, tangan dan kaki, atau sekeliling mata, kelopak mata, alis mata, dan bulu mata."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Kulit terpapar dengan zat iritan, seperti tanaman tertentu, karet (lateks), antibiotik, zat pewangi (parfum), zat pengawet, dan logam (nikel, kobalt)"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Bersentuhan dengan : krim tabir surya, after-shave lotion, parfum, atau terkena sinar matahari."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Terasa sangat gatal"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Kulit kemerahan ringan hingga pembengkakan berat, dan benjolan-benjolan yang besar"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Ruam kulit yang mengandung vesikel-vesikel kecil."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:text="- Ruam hanya timbul pada area yang terpapar dengan zat iritan"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

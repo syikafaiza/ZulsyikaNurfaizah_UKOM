@@ -1,0 +1,99 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="app.healthcompanion.heco.TalergiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:background="#29d5c5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/health"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="95dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="Tips Kesehatan"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="- Hindari faktor alergi"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="- Hentikan penggunaan obat yang menyebabkan alergi"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="- Jangan menggaruk, minum banyak air, hindari kelembaban berlebihan, jaga kebersihan"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="- Hindari makanan yang memicu alergi, terutama makanan yang mengandung banyak protein"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="- Konsultasikan secara berkala ke dokter"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,170 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="app.healthcompanion.heco.Alergi11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:background="#29d5c5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/stethoscope"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="95dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="Konsultasi Kesehatan"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:text="Hasil Diagnosa"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/atopik"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Penderita mungkin mengalami Dermatitis Atopik"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Periksa lebih lanjut dan berikan terapi yang tepat."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Obat Herbal yang disarankan :"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Resep 1(pemakaian dalam) 30 gram temulawak(dipotong-potong) + 10 gram sambiloto kering + gula aren secukupnya, dicuci bersih lalu direbus dengan 500 cc air hingga tersisa 200 cc, disaring, airnya diminum."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Resep 2(pemakaian luar) Daun ketepeng cina secukupnya dicuci bersih dan dihaluskan, tambahkan 1 sendok teh air kapur sirih dan 1 sendok makan minyak kelapa, dipanaskan sebentar, setelah hangat dioleskan pada bagian yang teriritasi."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Resep 3(pemakaian luar) Kunyit yang tua secukupnya dicuci bersih dan diparut, tambahkan 1 sendok air kapur sirih dan perasan 1 buah air jeruk nipis, diaduk sampai merata, lalu adonan tadi dioleskan pada bagian kulit yang teriritasi."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Resep 4(pemakaian luar) Sambiloto segar dicuci dan dihaluskan, tambahkan sedikit serbuk belerang, diaduk rata, lalu dioleskan pada bagian tubuh yang teriritasi."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Resep 5(pemakaian dalam) 2 jari temu hitam, 2 jari kunyit, 1 jari temu lawak, 2 jari brotowali, tumbuk halus, rebus dengan 1 helai daun sirih dan 2 gelas air hingga menjadi 1 gelas, dan diminum 1 kali sehari."/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Obat Sintetis yang disarankan :"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Dextamine, Incidal-OD, Lesidas, Prednison"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Tips Kesehatan :"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Hindari faktor penyebab alergi. Jangan meggaruk atau meggosok kulit. Lindungi kulit agar tidak terlalu lembab, teriritasi, dan/atau tergesek pakaian, dan kenali atau kurangi stress emosional"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
